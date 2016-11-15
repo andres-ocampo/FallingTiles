@@ -18,8 +18,8 @@
 	aside{
 		position: fixed;
 		background-color: rgba(0,0,0,0.4);
-		width: 200px;
-		height: 300px;	
+		width: 220px;
+		height: 320px;	
 		right: 0px;
 		border-radius: 0px;
 		font-size: 20px;
@@ -29,13 +29,13 @@
 
 	}
 	
-	#puesto ,#listaj {
+	#puesto ,#playersList {
 		display: inline-block;
 		list-style: none;
 		
 	}
-	#puesto li,#listaj li {
-		height: 50px;
+	#puesto li,#playersList li {
+		height: 28px;
 		
 	}
 	aside:hover{

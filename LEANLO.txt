@@ -1,0 +1,20 @@
+SE PREGUNTARAN porque el codigo para pintar tiene tantos condicionales
+lo que pasa es que se deben hacer porque se tienen en cuenta las esquinas y los bordes para 
+pintar pues si accedemos a una pocision negativa nos tiramos esta joda!
+
+que falta por hacer:
+yo diria que hay varias variables que deberian crearse para que si hay cambios en los valores de ellas
+durante el desarrollo que falta de este tendriamos que cambiar todos y cada uno de los valores en el codigo...por ejemplo el tamaño de la matriz de juego
+
+FALTA HACER LAS RENOVACIONES DE LAS CASILLAS NEGRAS....QUE ME GUSTARIA QUE LO HICIERA MATEO HENAO CARDONA
+
+Y ANDRES PODRIA HACER QUE EXISTIERAN MAS PARTIDAS AL MISMO TIEMPO
+
+
+NOTA:
+
+ESTA VERSION ESTA BUENA....PUEDEN RENOVAR LAS MAS VIEJAS QUE TENGAN...
+SI HAN AVANZADO EN OTRAS VERSIONES LES ACONSEJO QUE COPIEN Y PEGUEN ACA
+Y CUANDO HAGAN ALGUN AVANCE SUBAN LA VERSION AL GRUPO DE FB
+
+MUCHA SUERTE LINKCODEV.

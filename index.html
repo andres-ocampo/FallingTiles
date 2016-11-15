@@ -6,20 +6,37 @@
 		crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="fallingTiles.png">
 	<title>Tiles</title>
 </head>
 
 <body>
 	<div id="recuadro">
 		<div id="inicio">
-			<img src="https://scontent.feoh1-1.fna.fbcdn.net/v/t34.0-12/14793895_1166778270069742_990372884_n.jpg?oh=1ebff7e526246238ffbbde2b3dde34c6&oe=580FE56A"
-				alt="">
+			<div id="lost" hidden style='position: relative; margin: auto;width: 50%;border: 3px solid red;padding: 10px;'><h1 style='text-align: center;'>You lost!</h1></div>		
 			<input id="nick" type="text" placeholder="Nick"><br>
 			<button id="login" class="btn-5">Play</button>
 			<hr>
 			<p>Welcome to FallingTiles</p>
 		</div>
 	</div>
+	<section id="plataforma">
+		<aside id="contenedor">
+			<ul id="puesto" style="float: left">
+				<li>1:</li>
+				<li>2:</li>
+				<li>3:</li>
+				<li>4:</li>
+				<li>5:</li>
+				<li>6:</li>
+				<li>7:</li>
+				<li>8:</li>
+				<li>9:</li>
+				<li>10:</li>
+			</ul>
+			<ul id="playersList"></ul>
+		</aside>
+	</section>
 	<canvas id="board" width="1360" height="640" style="width:100%;height:100%;"></canvas>
 </body>
 <script type="text/javascript" src="/socket.io/socket.io.js"></script>
